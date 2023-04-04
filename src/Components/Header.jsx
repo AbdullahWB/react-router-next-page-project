@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router-dom';
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     return (
-        <div className='bg-gray-100 flex items-center justify-between px-4 py-16 mx-auto sm: max-w-xl lg:mt-5 rounded-md md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-5'>
+        <div className='bg-gray-100 flex items-center justify-between px-4 py-5 mx-auto sm: max-w-xl lg:mt-5 rounded-md md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-5'>
             <Link to='/' className='inline-flex items-center'>
                 <BoltIcon className='h-6 w-6 text-blue-500'></BoltIcon>
                 <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>nextPage</span>
